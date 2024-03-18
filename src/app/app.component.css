@@ -1,0 +1,187 @@
+
+.form-container
+{
+   height:100vh;
+   width:100vw;
+   font-weight: bold;
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+  
+   
+}
+form 
+{
+    background-color: rgb(255, 255, 253);
+    margin: 20px;
+    width:35vw;
+    padding-left:20px;
+    border-radius: 20px;
+}
+/*styles for input field and select*/
+input,select,button
+{
+    padding:10px;
+    font-size: small;
+    border-radius: 10px;
+}
+/* styles for input width*/
+input
+{
+    width:89%;
+   
+}
+select
+{
+    width:98%;
+}
+.form-radio-buttons input
+{
+    width:auto;
+}
+.form-button
+{
+    width:95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(162, 42, 21);
+    color:white;
+}
+/* styles for heading part*/
+.form-title
+{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(112, 86, 151);
+}
+/* styles for form-radio-buttons*/
+.form-radio-buttons label
+{
+    margin-right: 50px;
+    
+}
+/* styles for responsive*/
+@media (1121px<=width<=1500px)
+{
+   form 
+   {
+      width:50vw;
+   }
+}
+@media (max-width:1120px) and (min-width:768px)
+{
+    form 
+    {
+        width:70vw;
+    }
+}
+@media (max-width:768px) and (min-width:400px)
+{
+    form 
+    {
+        width:90vw;
+    }
+    .form-name input,.form-pd input,.region-pin input,.country-city input,select
+    {
+        width:90%
+    }
+}
+/* styles for froms by angular classes*/
+form .ng-invalid.ng-touched
+{
+    border:2px solid red;
+}
+.error-msg
+{
+    color:red;
+    font-weight: bold;
+    margin-top:2px;
+}
+/* styles for column */
+.column
+{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30px;
+}
+.common-col
+{
+  flex:1;
+  
+}
+.form-title,.form-email,.form-pd,.form-gender,.street1,.street2,.country-city,.region-pin,.form-address,.username-input,.username-button
+{
+    margin-top: 15px;
+}
+button:disabled
+{
+    opacity: 0.5;
+}
+/* styles for username input and button*/
+.username-button button
+{
+    background-color: rgb(162, 42, 21);
+    color:white;
+}
+.form-checkbox
+{
+    margin-top: 10px;
+}
+.form-checkbox input
+{
+    width:auto;
+}
+/* styles for cards*/
+.card
+{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+}
+.card-container
+{
+    display: flex;
+    
+    justify-content: space-evenly;
+    width:450px;
+    background-color: rgb(255, 255, 253);
+    border-radius: 30px;
+}
+.short-name
+{
+    align-self: center;
+    font-size: 60px;
+    font-weight: bolder;
+    background-color: rgb(33, 38, 45);
+    color:rgb(255, 255, 253);
+    border-radius: 50%;
+    padding:35px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details-line
+{
+    height:2px;
+    width:200px;
+    background-color: black;
+    margin-top:7px;
+    margin-bottom: 7px;
+}
+.details-name
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+.address 
+{
+    margin-top: 5px;
+}
